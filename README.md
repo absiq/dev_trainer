@@ -1,8 +1,8 @@
 # Dev Trainer
 
-![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/README-template?style=for-the-badge)
+![GitHub language count](![GitHub language count](https://img.shields.io/github/languages/count/andre-sqr/dev_trainer?color=721121&style=for-the-badge))
+![GitHub forks](![GitHub forks](https://img.shields.io/github/forks/andre-sqr/dev_trainer?color=A5402D&style=for-the-badge))
+![GitHub repo size](![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/andre-sqr/dev_trainer?color=F15156&style=for-the-badge))
 
 
 ## 👥 Equipe
