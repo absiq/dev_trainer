@@ -1,0 +1,21 @@
+/* IMAGENS ILUSTRATIVAS DO CARROSEL */
+.imagem-slide1{
+    height: 30em;
+    object-fit: cover;
+}
+
+.imagem-slide2{
+    height: 30em;
+    object-fit: cover;
+}
+
+.imagem-slide3{
+    height: 30em;
+    object-fit: cover;
+}
+
+#textoSlides{
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em black;
+}
+
