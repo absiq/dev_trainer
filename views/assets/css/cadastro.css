@@ -1,0 +1,21 @@
+body {
+    background-color: #030923;
+}
+
+.container-form {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.form-label {
+    color: #FFFFFF;
+}
+
+.form-check-label {
+    color: #FFFFFF;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+}
