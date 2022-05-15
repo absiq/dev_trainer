@@ -1,0 +1,11 @@
+.geral{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 10em;
+}
+
+.mb-3{
+    width: 30em;
+}
