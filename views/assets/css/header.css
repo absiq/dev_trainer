@@ -1,62 +1,79 @@
+/* FONTES IMPORTADAS */
+
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+/* HEADER E BOTOES DE NAVEGAÇÃO */
+
 header{
-    background-image: url();
-    background-size: cover;
+    height: 30em;
+    background-color: rgb(75, 77, 76);
+    background-image: url(https://i.pinimg.com/originals/59/80/c2/5980c2f21b19972ca2346a9037f66493.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
-#btn1{
+.titulodevtrainer{
+    font-size: 1.5em;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #57C1E4;
+    padding: 2em;
+}
+
+.divbtns{
+    font-size: 1em;
+    color: #000000;
+    gap: 1em;
+}
+
+.btnnossoscursos{
     font-size: 1em;
     background-color: #7CF182;
-    color: rgb(0, 0, 0);
-    border: 0.1em solid black;
+    border: 0.1em solid #000000;
 }
 
-#btn2{
-   font-size: 1em;
+.btnnossaequipe{
+    font-size: 1em;
+   color: #000000;
    background-color: #57C1E4;
-   color: rgb(0, 0, 0);
-   border: 0.1em solid black;
+   border: 0.1em solid #000000;
 }
 
-#btn3{
+.btnjatenhoconta{
     font-size: 1em;
+    color: #000000;
     background-color: #F8A342;
-    color: rgb(0, 0, 0);
-    border: 0.1em solid black;
+    border: 0.1em solid #000000;
 }
 
 
-#btn4{
-    font-size: 1em;
-    background-color: #F6FAF8;
-    color: rgb(0, 0, 0);
-    border: 0.1em solid black;
-    box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.445);
-}
-
-#btn1:hover{
-    transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #7CF182;
-} 
-#btn2:hover{
-    transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #57C1E4;
-} 
-#btn3:hover{
-    transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #F8A342;
-}
-#btn4:hover{
-    transform: translateY(-10px); box-shadow: 0px 5px 10px 5px rgb(173, 165, 165);
-}
-
-.navbar-brand{
+.btnassinaragora{
     font-size: 1.5em;
-    font-family: fantasy;
-    font-family: 'Press Start 2P', cursive;
+    color: #000000;
+    background-color: #ffffff;
+    border: 0.1em solid #000000;
+    height: 3em;
 }
 
-.navbar-nav{
-    gap: 2em;
+.btnnossoscursos:hover{
+    /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #7CF182; */
+    color: #7CF182;
+} 
+.btnnossaequipe:hover{
+    /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #57C1E4; */
+    color: #57C1E4;
+} 
+.btnjatenhoconta:hover{
+    /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #F8A342; */
+    color: #F8A342;
 }
+.btnassinaragora:hover{
+    /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #ffffff; */
+    color: #ffffff;
+
+}
+
+
+
+
 
 

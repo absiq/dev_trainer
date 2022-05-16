@@ -14,26 +14,31 @@
 <body>
     <!-- BOTÕES DE NAVEGAÇÃO -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#"> <img src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/9b25d89c283aa6b.png" width="80em" alt="logo da dev trainer">DEV TRAINER</a>
+                 <img src="http://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/9b25d89c283aa6b.png" width="100em" alt="logo da dev trainer">
+                 <a class="navbar-brand  titulodevtrainer" href="./index.html">DEV TRAINER</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <button type="button" id="btn1" class="btn btn-primary btn-sm">Cursos</button>
-                        <button type="button" id="btn2" class="btn btn-primary btn-sm">Nossa equipe</button>
-                        <button type="button" id="btn3" class="btn btn-primary btn-sm">Login</button>
-                        <button type="button" id="btn4" class="btn btn-primary btn-lg">Assinar agora!</button>
+                    <div class="navbar-nav divbtns">
+                        <button type="button" class="btn btn-sm btnnossoscursos botoesnav">Nossos Cursos</button>
+                        <button type="button" class="btn btn-sm btnnossaequipe botoesnav">Nossa equipe</button>
+                        <button type="button" class="btn btn-sm btnjatenhoconta botoesnav">Já tenho conta</button>
+                        <button type="button" class="btn btn-sg btnassinaragora botoesnav">Assinar agora!</button>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
-
+    <br>
+    <!-- SLIDES INFORMATIVOS DO NOSSO GOLDEN CIRCLE (WHY HOW WHAT) (POR QUE, COMO, O QUE) 
+    QUAL O PROPÓSITO DA DEV TRAINER? 
+    COMO ELA CONSEGUE SER UMA PLATAFORMA DIFERENCIAL NO MERCADO PARA ATRAIR MAIS USUÁRIOS?
+    O QUE É A DEV TRAINER?-->
     <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
@@ -43,31 +48,31 @@
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
         </div>
-        <!-- PRIMEIRA IMAGEM DO CARROSEL -->
-        <div class="carousel-inner">
+        <!-- PRIMEIRO SLIDE DO CARROSEL -->
+        <div class="carousel-inner slides">
             <div class="carousel-item active" data-bs-interval="10000">
                 <img src="https://i.pinimg.com/originals/fd/8f/8d/fd8f8da060afe72035e078e5fe661452.png"
                     class="d-block w-100 imagem-slide1" alt="" />
-                <div class="carousel-caption d-none d-md-block" id="textoSlides">
-                    <h1>MISSÃO</h1>
-                    <h3>Texto informativo sobre o conteúdo desse slide.</h3>
+                <div class="carousel-caption d-none d-md-block slides">
+                    <h1>Qual o propósito da Dev Trainer?</h1>
+                    <h3>O propósito da Dev Trainer é agregar conhecimento de programação para desenvolvedores em formação por meio de cursos dinâmicos e divertidos, a partir de um sistema de gamificação.</h3>
                 </div>
             </div>
-            <!-- SEGUNDA IMAGEM DO CARROSEL -->
+            <!-- SEGUNDO SLIDE DO CARROSEL -->
             <div class="carousel-item" data-bs-interval="2000">
                 <img src="https://wallpaperaccess.com/full/5457303.png"
                     class="d-block w-100 imagem-slide2" alt="" />
-                <div class="carousel-caption d-none d-md-block" id="textoSlides">
-                    <h1>VISÃO</h1>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Como a Dev Trainer consegue ser uma plataforma diferencial no mercado para atrair mais usuários?</h1>
                     <h3>Texto informativo sobre o conteúdo desse slide.</h3>
                 </div>
             </div>
-            <!-- TERCEIRA IMAGEM DO CARROSEL -->
-            <div class="carousel-item">
+            <!-- TERCEIRO SLIDE DO CARROSEL -->
+            <div class="carousel-item ">
                 <img src="https://images4.alphacoders.com/100/1008904.png" class="d-block w-100 imagem-slide3"
                     alt="" />
-                <div class="carousel-caption d-none d-md-block" id="textoSlides">
-                    <h1>VALORES</h1>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>O que é a Dev Trainer?</h1>
                     <h3>Texto informativo sobre o conteúdo desse slide.</h3>
                 </div>
             </div>

@@ -14,8 +14,7 @@
     object-fit: cover;
 }
 
-#textoSlides{
+.slides{
     color: white;
-    text-shadow: 0.1em 0.1em 0.1em black;
 }
 
