@@ -1,3 +1,8 @@
+/* PALETA DE CORES DA DEV TRAINER
+#7CF182
+#57C1E4
+#F8A342
+#ffffff */
 /* FONTES IMPORTADAS */
 
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
@@ -10,6 +15,7 @@ header{
     background-image: url(./img_header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    align-items: center;
 }
 
 
@@ -18,8 +24,8 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border-radius: 3em;
-    background-color: #e45757;
+    border-radius: 1em;
+    background-color: #e457577e;
     padding: 1em;
 }
 
@@ -28,7 +34,7 @@ header{
     font-family: "Press Start 2P", cursive;
 }
 
-.divbtns {
+.divbtns{
     font-size: 0.9em;
     color: #000000;
     gap: 1em;
@@ -36,31 +42,32 @@ header{
     height: 5em;
 }
 
+
 .btnnossoscursos {
     font-size: 1em;
-    background-color: #7cf182;
-    border-radius: 3em;
+    background-color: #7cf18277;
+    border-radius: 1em;
 }
 
 .btnnossaequipe {
     font-size: 1em;
     color: #000000;
-    background-color: #57c1e4;
-    border-radius: 3em;
+    background-color: #57c1e471;
+    border-radius: 1em;
 }
 
 .btnjatenhoconta {
     font-size: 1em;
     color: #000000;
-    background-color: #f8a342;
-    border-radius: 3em;
+    background-color: #f8a3427e;
+    border-radius: 1em;
 }
 
 .btnassinaragora {
     font-size: 1.5em;
     color: #000000;
-    background-color: #ffffff;
-    border-radius: 3em;
+    background-color: #ffffff79;
+    border-radius: 1em;
 }
 
 .btnnossoscursos:hover {
