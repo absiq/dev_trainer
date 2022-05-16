@@ -3,6 +3,7 @@
 #57C1E4
 #F8A342
 #ffffff */
+
 /* FONTES IMPORTADAS */
 
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
@@ -24,8 +25,6 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    border-radius: 1em;
-    background-color: #e457577e;
     padding: 1em;
 }
 
@@ -45,29 +44,25 @@ header{
 
 .btnnossoscursos {
     font-size: 1em;
-    background-color: #7cf18277;
-    border-radius: 1em;
+    background-color: #7CF182;
 }
 
 .btnnossaequipe {
     font-size: 1em;
     color: #000000;
-    background-color: #57c1e471;
-    border-radius: 1em;
+    background-color: #57C1E4;
 }
 
 .btnjatenhoconta {
     font-size: 1em;
     color: #000000;
-    background-color: #f8a3427e;
-    border-radius: 1em;
+    background-color: #F8A342;
 }
 
 .btnassinaragora {
     font-size: 1.5em;
     color: #000000;
-    background-color: #ffffff79;
-    border-radius: 1em;
+    background-color: #ffffff;
 }
 
 .btnnossoscursos:hover {
@@ -90,6 +85,7 @@ header{
     color: #ffffff;
 }
 
+/* CONTAINER DA DESCRIÇÃO DA DEV TRAINER */
 .containerheader{
     display: flex;
     flex-direction: column;
@@ -99,12 +95,29 @@ header{
     height: 100vh;
 }
 
+/* DEV TRAINER E A DESCRIÇÃO DO QUE ELA REPRESENTA. */
 .descricaodevtrainer{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 40em;
-    margin-right: 3em;
+    width: 30em;
+    padding: 10vh;
+    height: 60vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*BOTÃO NA DESCRIÇÃO PARA DIRECIONAR A PÁGINA DE PLANOS E DEPOIS DO CADASTRO*/
+.btnconfiranossosplanos{
+    color: black;
+    width: 15em;
+    padding: 1em;
+    background-color: #e45757;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em black;
+    border: 0.2em solid black;
+}
+
+.btnconfiranossosplanos:hover{
+    background-color: #57C1E4;
+    color: black;
 }
 
