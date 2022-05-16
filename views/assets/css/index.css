@@ -1,16 +1,17 @@
 /* IMAGENS ILUSTRATIVAS DO CARROSEL */
+/* ESSE "100VH" ESTÁ COBRINDO A PÁGINA INTEIRA */
 .imagem-slide1{
-    height: 30em;
+    height: 100vh;
     object-fit: cover;
 }
 
 .imagem-slide2{
-    height: 30em;
+    height: 100vh;
     object-fit: cover;
 }
 
 .imagem-slide3{
-    height: 30em;
+    height: 100vh;
     object-fit: cover;
 }
 
