@@ -41,7 +41,6 @@ header{
     height: 5em;
 }
 
-
 .btnnossoscursos {
     font-size: 1em;
     background-color: #7CF182;
@@ -62,7 +61,7 @@ header{
 .btnassinaragora {
     font-size: 1.5em;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #e45757;
 }
 
 .btnnossoscursos:hover {
@@ -101,9 +100,9 @@ header{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: 30em;
+    width: 40em;
     padding: 10vh;
-    height: 60vh;
+    height: 70vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 /*BOTÃO NA DESCRIÇÃO PARA DIRECIONAR A PÁGINA DE PLANOS E DEPOIS DO CADASTRO*/
@@ -111,13 +110,13 @@ header{
     color: black;
     width: 15em;
     padding: 1em;
-    background-color: #e45757;
+    background-color: #fcfc6e;
     box-shadow: 0.1em 0.1em 0.1em 0.1em black;
     border: 0.2em solid black;
 }
 
 .btnconfiranossosplanos:hover{
-    background-color: #57C1E4;
-    color: black;
+    background-color: aquamarine;
+    color: rgb(255, 255, 255);
 }
 
