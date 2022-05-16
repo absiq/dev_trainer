@@ -4,13 +4,14 @@
 
 /* HEADER E BOTOES DE NAVEGAÇÃO */
 
-header {
+header{
     height: 100vh;
     background-color: rgb(75, 77, 76);
     background-image: url(./img_header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 .logoetitulo {
     display: flex;
@@ -81,3 +82,22 @@ header {
     /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #ffffff; */
     color: #ffffff;
 }
+
+.containerheader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    height: 100vh;
+}
+
+.descricaodevtrainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40em;
+    margin-right: 3em;
+}
+
