@@ -5,17 +5,15 @@
 #ffffff */
 
 /* FONTES IMPORTADAS */
-
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 /* HEADER E BOTOES DE NAVEGAÇÃO */
-
 nav{
     background-color: #f8a3427c;
     height: 15vh;
     align-items: center;
 }
-
+/* CLASSE DO HEADER */
 header{
     height: 100vh;
     background-color: #57C1E4;
@@ -27,7 +25,7 @@ header{
     background-size: cover;
 }
 
-
+/* DIV DA LOGO E DO TITULO DA DEV TRAINER */
 .logoetitulo {
     display: flex;
     flex-direction: row;
@@ -35,38 +33,43 @@ header{
     align-items: center;
     padding: 1em;
 }
-
+/* CLASSE DO TITULO DA DEV TRAINER NO HEADER */
 .devtrainer{
     font-size: 1.5em;
-    color: #7CF182;
+    color: #000000;
     font-family: "Press Start 2P", cursive;
 }
-
+/* HOVER DO TITULO DA DEV TRAINER NO HEADER */
+.devtrainer:hover{
+    color: white;
+}
+/* CLASSE DOS BOTÕES DE NAVEGAÇÃO DO HEADER (NOSSOS CURSOS, NOSSA EQUIPE, JÁ TENHO CONTA E ASSINAR AGORA) */
 .divbtns{
+    font-size: 0.8em;
     color: #000000;
     gap: 1em;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Press Start 2P", cursive;
     height: 5em;
     align-items: center;
 }
-
+/* CLASSE DO BOTÃO "NOSSOS CURSOS" */
 .btnnossoscursos {
-    font-size: 1em;
+    font-size: 0.8em;
     color: #000000;
 }
-
+/* CLASSE DO BOTÃO "NOSSA EQUIPE" */
 .btnnossaequipe {
-    font-size: 1em;
+    font-size: 0.8em;
     color: #000000;
 }
-
+/* CLASSE DO BOTÃO "JÁ TENHO CONTA" */
 .btnjatenhoconta {
-    font-size: 1em;
+    font-size: 0.8em;
     color: #000000;
 }
-
+/* CLASSE DO BOTÃO "ASSINAR AGORA!" */
 .btnassinaragora {
-    font-size: 0.7em;
+    font-size: 1em;
     text-align: center;
     width: 18em;
     height: 5em;
@@ -76,25 +79,26 @@ header{
     font-family: "Press Start 2P", cursive;
 }
 
+/* HOVER DO BOTÃO DOS NOSSOS CURSOS */
 .btnnossoscursos:hover {
     /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #7CF182; */
     color: #ffffff;
 }
-
+/* HOVER DO BOTÃO DA NOSSA EQUIPE */
 .btnnossaequipe:hover {
     /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #57C1E4; */
     color: #ffffff;
 }
-
+/* HOVER DO BOTÃO DA TELA DE LOGIN */
 .btnjatenhoconta:hover {
     /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #F8A342; */
     color: #ffffff;
 }
-
+/* HOVER DO BOTÃO "ASSINAR AGORA */
 .btnassinaragora:hover {
     /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #ffffff; */
-    color: #ffffff;
-    background-color: #57C1E4;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     border: 0.1em solid black;
 }
 
@@ -121,16 +125,19 @@ header{
 }
 /*BOTÃO NA DESCRIÇÃO PARA DIRECIONAR A PÁGINA DE PLANOS E DEPOIS DO CADASTRO*/
 .btnconfiranossosplanos{
-    color: black;
-    width: 15em;
-    padding: 1em;
-    background-color: #fcfc6e;
-    box-shadow: 0.1em 0.1em 0.1em 0.1em black;
-    border: 0.2em solid black;
+    font-size: 0.7em;
+    text-align: center;
+    width: 30em;
+    height: 5em;
+    color: #000000;
+    background-color: #7CF182;
+    border: 0.1em solid black;
+    font-family: "Press Start 2P", cursive;
 }
 
+/* HOVER DO BOTÃO "CONFIRA NOSSOS PLANOS!" */
 .btnconfiranossosplanos:hover{
-    background-color: aquamarine;
-    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
 
