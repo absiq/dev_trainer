@@ -1,3 +1,24 @@
+@font-face {
+    font-family:"Press_Start_2P";
+    src: url("../fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+}
+*{  
+    font-family: "Press_Start_2P";
+}
+body{
+    background-color: #fafafa;
+}
+.total{
+    margin-top: 2%;
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 .geral{
     display: flex;
     align-items: flex-start;
