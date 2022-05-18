@@ -15,3 +15,30 @@
     object-fit: cover;
 }
 
+.slide1{
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em  black;
+}
+
+.slide2{
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em  black;
+}
+
+
+.slide3{
+    color: white;
+    text-shadow: 0.1em 0.1em 0.1em  black;
+}
+
+.imagem-slide1{
+    background-color: #ffffff;
+}
+
+.imagem-slide2{
+    background-color: #ffffff;
+}
+
+.imagem-slide3{
+    background-color: #ffffff;
+}

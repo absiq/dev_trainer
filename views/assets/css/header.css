@@ -10,13 +10,21 @@
 
 /* HEADER E BOTOES DE NAVEGAÇÃO */
 
+nav{
+    background-color: #f8a3427c;
+    height: 15vh;
+    align-items: center;
+}
+
 header{
     height: 100vh;
-    background-color: rgb(75, 77, 76);
-    background-image: url(./img_header.jpg);
+    background-color: #57C1E4;
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
+    background-image: url(https://i.pinimg.com/originals/28/98/54/289854dae67ede707890974d5b209100.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -28,40 +36,44 @@ header{
     padding: 1em;
 }
 
-.titulodevtrainer {
+.devtrainer{
     font-size: 1.5em;
+    color: #7CF182;
     font-family: "Press Start 2P", cursive;
 }
 
 .divbtns{
-    font-size: 0.9em;
     color: #000000;
     gap: 1em;
     font-family: Arial, Helvetica, sans-serif;
     height: 5em;
+    align-items: center;
 }
 
 .btnnossoscursos {
     font-size: 1em;
-    background-color: #7CF182;
+    color: #000000;
 }
 
 .btnnossaequipe {
     font-size: 1em;
     color: #000000;
-    background-color: #57C1E4;
 }
 
 .btnjatenhoconta {
     font-size: 1em;
     color: #000000;
-    background-color: #F8A342;
 }
 
 .btnassinaragora {
-    font-size: 1.5em;
+    font-size: 0.7em;
+    text-align: center;
+    width: 18em;
+    height: 5em;
     color: #000000;
-    background-color: #e45757;
+    background-color: #7CF182;
+    border: 0.1em solid black;
+    font-family: "Press Start 2P", cursive;
 }
 
 .btnnossoscursos:hover {
@@ -82,6 +94,8 @@ header{
 .btnassinaragora:hover {
     /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #ffffff; */
     color: #ffffff;
+    background-color: #57C1E4;
+    border: 0.1em solid black;
 }
 
 /* CONTAINER DA DESCRIÇÃO DA DEV TRAINER */
@@ -98,11 +112,11 @@ header{
 .descricaodevtrainer{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     width: 40em;
-    padding: 10vh;
-    height: 70vh;
+    padding: 5vh;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 /*BOTÃO NA DESCRIÇÃO PARA DIRECIONAR A PÁGINA DE PLANOS E DEPOIS DO CADASTRO*/
