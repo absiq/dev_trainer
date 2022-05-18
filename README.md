@@ -8,7 +8,9 @@
 ![GitHub forks](https://img.shields.io/github/forks/andre-sqr/dev_trainer?color=A5402D&style=for-the-badge)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/andre-sqr/dev_trainer?color=F15156&style=for-the-badge)
 
-A DevTrainer é um projeto de conclusão de segundo módulo da formação de Web Dev Full Stack da empresa Resilia Educação. 
+Projeto de conclusão de segundo módulo da formação de Web Dev Full Stack da Resilia Educação. O objetivo é desenvolver o front end da apresentação de um novo produto relacionado a tecnologia. 
+
+A Dev Trainer surge com o objetivo de ser uma plataforma de aprendizado de programação que estimula o ensino dinâmico e motiva os estudos através de um sistema de gamificação, mantendo o usuário motivado com um sistema de recompensas.
 
 ## 👥 Equipe
 
