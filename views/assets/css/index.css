@@ -1,44 +1,43 @@
 /* IMAGENS ILUSTRATIVAS DO CARROSEL */
 /* ESSA MEDIDA DE TAMANHO "100VH" ESTÁ COBRINDO A PÁGINA INTEIRA */
-.imagem-slide1{
-    height: 100vh;
+.imagem-slide1 {
     object-fit: cover;
 }
 
-.imagem-slide2{
-    height: 100vh;
+.imagem-slide2 {
+    height: 50%;
     object-fit: cover;
 }
 
-.imagem-slide3{
-    height: 100vh;
+.imagem-slide3 {
+    height: 50%;
     object-fit: cover;
 }
 
-.slide1{
+.slide1 {
     color: white;
-    text-shadow: 0.1em 0.1em 0.1em  black;
+    text-shadow: 0.1em 0.1em 0.1em black;
 }
 
-.slide2{
+.slide2 {
     color: white;
-    text-shadow: 0.1em 0.1em 0.1em  black;
+    text-shadow: 0.1em 0.1em 0.1em black;
 }
 
 
-.slide3{
+.slide3 {
     color: white;
-    text-shadow: 0.1em 0.1em 0.1em  black;
+    text-shadow: 0.1em 0.1em 0.1em black;
 }
 
-.imagem-slide1{
+.imagem-slide1 {
     background-color: #ffffff;
 }
 
-.imagem-slide2{
+.imagem-slide2 {
     background-color: #ffffff;
 }
 
-.imagem-slide3{
+.imagem-slide3 {
     background-color: #ffffff;
 }
