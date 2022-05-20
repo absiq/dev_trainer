@@ -8,9 +8,7 @@
 }
 
 /* ESQUELETO DO HTML */
-body {
-    background-color: #000000;
-}
+
 
 /* PALETA DE CORES DA DEV TRAINER
 #7CF182
@@ -51,8 +49,8 @@ main {
 .descricaodevtrainer {
     width: 40%;
     text-align: center;
-    /* margin-left: 60vh;
-    margin-top: -5vh; */
+    margin-left: 60vh;
+    margin-top: -5vh;
     margin-left: 27%;
     margin-top: -3%;
 }
@@ -62,12 +60,13 @@ main {
     color: black;
     font-family: "Press Start 2P", cursive;
     font-size: 100%;
-    background-color: #57C1E4;
+    background-color: #ffffff;
 }
 
 /* HOVER DO BOTÃO "CONFIRA NOSSOS PLANOS!" */
 .btnconfiranossosplanos:hover {
-    background-color: #57C1E4;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 .section1 {

@@ -9,7 +9,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 /* HEADER E BOTOES DE NAVEGAÇÃO */
 header {
-    background-color: #000000f1;
+    background-color: #1b1919;
+}
+
+.hamburg{
+    background-color: #c9c1c0;
 }
 
 nav {
@@ -67,7 +71,7 @@ nav {
 .btnassinaragora {
     color: black;
     font-size: 90%;
-    background-color: #57C1E4;
+    background-color: #ffffff;
     text-shadow: 0.1em 0.1em 0.1em 0.1em black;
 }
 
@@ -89,6 +93,5 @@ nav {
 /* HOVER DO BOTÃO "ASSINAR AGORA */
 .btnassinaragora:hover {
     color: #000000;
-    background-color: #7CF182;
-    border: 0.1em solid black;
+    background-color: #ffffff;
 }
