@@ -2,13 +2,19 @@
     font-family:"Press_Start_2P";
     src: url("../fonts/Press_Start_2P/PressStart2P-Regular.ttf");
 }
-*{  
+/* *{  
     font-family: "Press_Start_2P";
-}
+} */
 body{
+    background-image: url("/castelo.jpg");
+    background-position: center;
+    background-size: cover;
     background-color: #fafafa;
 }
+
 .total{
+    width: 40%;
+    opacity: 0.9;
     margin-top: 2%;
     padding-top: 0.5%;
     padding-bottom: 2%;
@@ -18,15 +24,34 @@ body{
     padding-right: 5%;
     background-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
 }
-.geral{
+.total h5{
+    font-family: "Press_Start_2P";
+}
+.formulario{
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 10em;
+    margin-top: 7em;
+    
 }
 
 .mb-3{
-    width: 30em;
+    width: 60%;
+}
+.instagram a{
+    display: inline-block;
+    width: 300px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+.emailGoogle a{
+    display: inline-block;
+    width: 300px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
 }
