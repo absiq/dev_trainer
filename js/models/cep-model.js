@@ -12,7 +12,7 @@ class ModelCep {
         let cepInput = $('#inputCep').val()
         if (this.validaCep() == true) {
             $.ajax({
-                url: `viacep.com.br/ws/${cepInput}/json/`,
+                url: `https://viacep.com.br/ws/${cepInput}/json/`,
                 success: (resultado) => {
                 // TODO: Criar resposta de sucesso
                 this._atualiza(resultado)
