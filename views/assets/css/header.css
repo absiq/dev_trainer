@@ -6,19 +6,18 @@
 
 /* FONTES IMPORTADAS */
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-body{
-    background-color: #00000079;
-}
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 /* HEADER E BOTOES DE NAVEGAÇÃO */
-header{
-    background-color: #000000a4;
+header {
+    background-color: #000000f1;
 }
 
-nav{
+nav {
     height: 15%;
 }
+
 /* LOGO E TITULO DA DEVTRAINER */
-.logoetitulo{
+.logoetitulo {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -45,27 +44,31 @@ nav{
 
 /* CLASSE DO BOTÃO "NOSSOS CURSOS" */
 .btnnossoscursos {
-    font-size: 60%;
+    font-size: 65%;
     color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.1em 0.1em black;
 }
 
 /* CLASSE DO BOTÃO "NOSSA EQUIPE" */
 .btnnossaequipe {
-    font-size: 60%;
+    font-size: 65%;
     color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.1em 0.1em black;
 }
 
 /* CLASSE DO BOTÃO "JÁ TENHO CONTA" */
 .btnjatenhoconta {
-    font-size: 60%;
+    font-size: 65%;
     color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.1em 0.1em black;
 }
 
 /* CLASSE DO BOTÃO "ASSINAR AGORA!" */
-.btnassinaragora{
+.btnassinaragora {
     color: black;
-    font-size: 80%;
+    font-size: 90%;
     background-color: #57C1E4;
+    text-shadow: 0.1em 0.1em 0.1em 0.1em black;
 }
 
 /* HOVER DO BOTÃO DOS NOSSOS CURSOS */
@@ -89,4 +92,3 @@ nav{
     background-color: #7CF182;
     border: 0.1em solid black;
 }
-

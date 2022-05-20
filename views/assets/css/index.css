@@ -1,10 +1,15 @@
 /* FONTES IMPORTADAS */
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
-/* ZERANDO TODO O MARGIN E PADDING */
-*{
+/* ZERANDO TODO O MARGIN E PADDING DO ESQUELETO */
+* {
     margin: 0%;
     padding: 0%;
+}
+
+/* ESQUELETO DO HTML */
+body {
+    background-color: #000000;
 }
 
 /* PALETA DE CORES DA DEV TRAINER
@@ -15,8 +20,10 @@
 
 /* FONTES IMPORTADAS */
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-main{
+main {
     height: 100vh;
     background-image: url(./cavalheiro_header.jpg);
     background-repeat: no-repeat;
@@ -25,52 +32,52 @@ main{
 
 /* CONTAINER DA MAIN */
 .containermain {
-    display: flex;
     height: 100vh;
     color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
 }
+
 /* TITULO DA DESCRICAO PARA O USUARIO */
-.titulodescricao{
+.titulodescricao {
     font-family: 'Black Han Sans', sans-serif;
     color: #ffffff;
 }
+
 /* DEV TRAINER E A DESCRIÇÃO DO QUE ELA REPRESENTA. */
 .descricaodevtrainer {
-    font-family: 'Black Han Sans', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.descricao{
     width: 40%;
+    text-align: center;
+    /* margin-left: 60vh;
+    margin-top: -5vh; */
+    margin-left: 27%;
+    margin-top: -3%;
 }
 
 /*BOTÃO NA DESCRIÇÃO PARA DIRECIONAR A PÁGINA DE PLANOS E DEPOIS DO CADASTRO*/
 .btnconfiranossosplanos {
     color: black;
     font-family: "Press Start 2P", cursive;
-    font-size: 80%;
+    font-size: 100%;
     background-color: #57C1E4;
 }
 
 /* HOVER DO BOTÃO "CONFIRA NOSSOS PLANOS!" */
 .btnconfiranossosplanos:hover {
-    font-size: 80%;
     background-color: #57C1E4;
 }
 
-.section1{
+.section1 {
     height: 50vh;
     background-color: #ff0000;
     color: white;
 }
 
-.section2{
+.section2 {
     height: 50vh;
     background-color: green;
     color: white;
 }
-
