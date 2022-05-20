@@ -1,21 +1,35 @@
+/* PALETA DE CORES DA DEV TRAINER
+#7CF182
+#57C1E4
+#F8A342
+#ffffff */
+
 /* FONTES IMPORTADAS */
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-
+body{
+    background-color: #00000000;
+}
 /* HEADER E BOTOES DE NAVEGAÇÃO */
-
-header {
-    background-color: rgb(255, 0, 0);
+header{
+    background-color: #00000000;
 }
 
+nav{
+    height: 15%;
+}
 /* LOGO E TITULO DA DEVTRAINER */
 .logoetitulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
 }
 
 
 /* CLASSE DO TITULO DA DEV TRAINER NO HEADER */
 .devtrainer {
-    color: #000000;
+    font-size: 140%;
+    color: #57C1E4;
     font-family: "Press Start 2P", cursive;
 }
 
@@ -27,59 +41,52 @@ header {
 /* CLASSE DOS BOTÕES DE NAVEGAÇÃO DO HEADER (NOSSOS CURSOS, NOSSA EQUIPE, JÁ TENHO CONTA E ASSINAR AGORA) */
 .divbtns {
     font-family: "Press Start 2P", cursive;
-    font-size: 100%;
-    background-color: #7CF182;
 }
 
 /* CLASSE DO BOTÃO "NOSSOS CURSOS" */
 .btnnossoscursos {
-    font-size: 70%;
-    color: #000000;
+    font-size: 60%;
+    color: #ffffff;
 }
 
 /* CLASSE DO BOTÃO "NOSSA EQUIPE" */
 .btnnossaequipe {
-    font-size: 70%;
-    color: #000000;
+    font-size: 60%;
+    color: #ffffff;
 }
 
 /* CLASSE DO BOTÃO "JÁ TENHO CONTA" */
 .btnjatenhoconta {
-    font-size: 70%;
-    color: #000000;
+    font-size: 60%;
+    color: #ffffff;
 }
 
 /* CLASSE DO BOTÃO "ASSINAR AGORA!" */
-.btnassinaragora {
-    font-size: 100%;
-    height: 100%;
-    color: #000000;
-    background-color: #f17c7c;
+.btnassinaragora{
+    color: black;
+    font-size: 80%;
+    background-color: #57C1E4;
 }
 
 /* HOVER DO BOTÃO DOS NOSSOS CURSOS */
 .btnnossoscursos:hover {
-    /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #7CF182; */
-    color: #ffffff;
+    color: #7CF182;
 }
 
 /* HOVER DO BOTÃO DA NOSSA EQUIPE */
 .btnnossaequipe:hover {
-    /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #57C1E4; */
-    color: #ffffff;
+    color: #57C1E4;
 }
 
 /* HOVER DO BOTÃO DA TELA DE LOGIN */
 .btnjatenhoconta:hover {
-    /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #F8A342; */
-    color: #ffffff;
+    color: #F8A342;
 }
 
 /* HOVER DO BOTÃO "ASSINAR AGORA */
 .btnassinaragora:hover {
-    /* transform: translateY(-10px); box-shadow: 0px 5px 10px 5px #ffffff; */
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    color: #000000;
+    background-color: #7CF182;
+    border: 0.1em solid black;
 }
 
-/* CONTAINER DA DESCRIÇÃO DA DEV TRAINER */

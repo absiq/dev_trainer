@@ -1,6 +1,7 @@
 /* FONTES IMPORTADAS */
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
+/* ZERANDO TODO O MARGIN E PADDING */
 *{
     margin: 0%;
     padding: 0%;
@@ -17,14 +18,15 @@
 
 main{
     height: 100vh;
-    background-image: url(https://joceliahora.github.io/Georg-Dev/view/images/background_home.png);
+    background-image: url(./img_inicio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+/* CONTAINER DA MAIN */
 .containermain {
     height: 100vh;
-    color: white;
+    color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,28 +36,40 @@ main{
 /* TITULO DA DESCRICAO PARA O USUARIO */
 .titulodescricao{
     font-family: 'Black Han Sans', sans-serif;
-    color: red;
+    color: #ffffff;
 }
 /* DEV TRAINER E A DESCRIÇÃO DO QUE ELA REPRESENTA. */
 .descricaodevtrainer {
-    text-align: center;
+    text-align: left;
+}
+
+.descricao{
+    width: 40%;
 }
 
 /*BOTÃO NA DESCRIÇÃO PARA DIRECIONAR A PÁGINA DE PLANOS E DEPOIS DO CADASTRO*/
 .btnconfiranossosplanos {
-    color: #000000;
-    background-color: #7CF182;
+    color: black;
     font-family: "Press Start 2P", cursive;
+    font-size: 80%;
+    background-color: #57C1E4;
 }
 
 /* HOVER DO BOTÃO "CONFIRA NOSSOS PLANOS!" */
 .btnconfiranossosplanos:hover {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    font-size: 80%;
+    background-color: #57C1E4;
 }
 
-section{
-    height: 100vh;
-    background-color: #000000;
+.section1{
+    height: 50vh;
+    background-color: #ff0000;
     color: white;
 }
+
+.section2{
+    height: 50vh;
+    background-color: green;
+    color: white;
+}
+
