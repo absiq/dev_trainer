@@ -1,43 +1,61 @@
-/* IMAGENS ILUSTRATIVAS DO CARROSEL */
-/* ESSA MEDIDA DE TAMANHO "100VH" ESTÁ COBRINDO A PÁGINA INTEIRA */
-.imagem-slide1 {
-    object-fit: cover;
+/* FONTES IMPORTADAS */
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
 }
 
-.imagem-slide2 {
-    height: 50%;
-    object-fit: cover;
+/* PALETA DE CORES DA DEV TRAINER
+#7CF182
+#57C1E4
+#F8A342
+#ffffff */
+
+/* FONTES IMPORTADAS */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+main{
+    height: 100vh;
+    background-image: url(https://joceliahora.github.io/Georg-Dev/view/images/background_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.imagem-slide3 {
-    height: 50%;
-    object-fit: cover;
-}
-
-.slide1 {
+.containermain {
+    height: 100vh;
     color: white;
-    text-shadow: 0.1em 0.1em 0.1em black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+/* TITULO DA DESCRICAO PARA O USUARIO */
+.titulodescricao{
+    font-family: 'Black Han Sans', sans-serif;
+    color: red;
+}
+/* DEV TRAINER E A DESCRIÇÃO DO QUE ELA REPRESENTA. */
+.descricaodevtrainer {
+    text-align: center;
 }
 
-.slide2 {
+/*BOTÃO NA DESCRIÇÃO PARA DIRECIONAR A PÁGINA DE PLANOS E DEPOIS DO CADASTRO*/
+.btnconfiranossosplanos {
+    color: #000000;
+    background-color: #7CF182;
+    font-family: "Press Start 2P", cursive;
+}
+
+/* HOVER DO BOTÃO "CONFIRA NOSSOS PLANOS!" */
+.btnconfiranossosplanos:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+section{
+    height: 100vh;
+    background-color: #000000;
     color: white;
-    text-shadow: 0.1em 0.1em 0.1em black;
-}
-
-
-.slide3 {
-    color: white;
-    text-shadow: 0.1em 0.1em 0.1em black;
-}
-
-.imagem-slide1 {
-    background-color: #ffffff;
-}
-
-.imagem-slide2 {
-    background-color: #ffffff;
-}
-
-.imagem-slide3 {
-    background-color: #ffffff;
 }
