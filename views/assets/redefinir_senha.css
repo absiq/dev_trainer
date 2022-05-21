@@ -10,23 +10,35 @@ body{
     background-color: #fafafa;
 }
 
-.titulo{
-    margin-top: 5%;
-    margin-left: 10%;
-}
-
 .geral{
-    margin-top: 8%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-left: 0%;
-    margin-right: 5%;
-    padding-left: 5%;
-    padding-right: 8%;
-    background-color: #FFFFFF;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding:15px;
+    margin-top: 40px;
+    width:40%;
+    text-align: left;
+    margin-top: 08%;
+    margin-left: 05%;
+    border:solid;
+    border-color:#FFFFFF;
+    font-size: 22px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    box-shadow:rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
 }
 
-.mb-3{
-    width: 30em;
+.texto02{
+    margin: 20px;
 }
+
+.form-text{
+    margin: 20px;
+}
+
+.cadeado{
+        
+        width:20%;
+        border-radius: 10%;
+        margin-right: 15%;
+        margin-top: 02%;
+        float: right;
+}
+
