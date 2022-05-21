@@ -6,10 +6,16 @@
     font-family: "Press_Start_2P";
 } */
 body{
-    background-image: url("/castelo.jpg");
-    background-position: center;
+    background-image: url("../../castelo.jpg");
     background-size: cover;
     background-color: #fafafa;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+}
+h5{
+    display: flex;
 }
 
 .total{
@@ -27,6 +33,7 @@ body{
     border-radius: 10px;
 }
 .total h5{
+    margin-top: 25%;
     font-family: "Press_Start_2P";
 }
 .formulario{
@@ -34,7 +41,7 @@ body{
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 7em;
+    margin-top: 5%;
     
 }
 
@@ -43,15 +50,22 @@ body{
 }
 .instagram a{
     display: inline-block;
-    width: 300px;
-    background-color: red;
+    width: 90%;
+    background-color: #F8A342;
     color: white;
     text-decoration: none;
 }
 .emailGoogle a{
     display: inline-block;
-    width: 300px;
-    background-color: black;
+    width: 90%;
+    background-color:#57C1E4;
     color: white;
     text-decoration: none;
 }
+#botaoconectar{
+    background-color: #7CF182;
+}
+
+/* #7CF182
+#57C1E4
+#F8A342 */
