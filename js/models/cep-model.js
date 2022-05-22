@@ -16,6 +16,7 @@ class ModelCep {
             {
                 if ( request.status == 200 )
                 {
+                    const resultado = this._processaResponse(request.responseText)
                     this._atualiza(resultado);
                 }
             })
@@ -37,13 +38,19 @@ class ModelCep {
     }
     }
 
+    _processaResponse(responseString)
+        {
+            const response = JSON.parse(responseString);
+            return response;
+        }
+
     _atualiza (resultado) {
         this._cep = resultado.cep
         this._estado = resultado.uf
         this._cidade = resultado.localidade
         this._bairro = resultado.bairro
         this._rua = resultado.logradouro
-        this.complemento = resultado.complemento
+        this._complemento = resultado.complemento
     }
 
     getCep() {
