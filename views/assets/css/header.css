@@ -71,7 +71,7 @@ nav {
 .btnassinaragora {
     color: black;
     font-size: 90%;
-    background-color: #ffffff;
+    background-color: #57C1E4;
     text-shadow: 0.1em 0.1em 0.1em 0.1em black;
 }
 
@@ -93,5 +93,5 @@ nav {
 /* HOVER DO BOTÃO "ASSINAR AGORA */
 .btnassinaragora:hover {
     color: #000000;
-    background-color: #ffffff;
+    background-color: #F8A342;
 }
