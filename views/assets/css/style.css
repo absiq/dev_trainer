@@ -79,6 +79,15 @@
     transition: background 1s;
     align-items: flex-start;
 }
+
+.btn:hover, .btn:focus {
+    background: var(--gradient) !important;
+-webkit-background-clip: none !important;
+-webkit-text-fill-color: #000207 !important;
+border: 5px solid #fff !important; 
+box-shadow: #222 1px 0 10px;
+text-decoration: underline;
+}
 /* finalizando parte dos planos  */
 
 /* iniciando página da equipe  */
@@ -90,7 +99,11 @@
   .card {
     border: 1px solid #57C1E4;
     margin-bottom: 2rem;
+    width: 40%;
+    height: 30%;
   }
+  
+
   
   .botaoequipe {
     border: 5px solid;
@@ -103,18 +116,12 @@
     transition: all .4s ease;
   }
   
-  .btn:hover, .btn:focus {
-        background: var(--gradient) !important;
-    -webkit-background-clip: none !important;
-    -webkit-text-fill-color: #000207 !important;
-    border: 5px solid #fff !important; 
-    box-shadow: #222 1px 0 10px;
-    text-decoration: underline;
-  }
 
 
-.mx-auto mt-4{
+
+main{
     display: flex;
     justify-content: space-between;
-
+    align-content: center;
+    align-items: center;
 }
