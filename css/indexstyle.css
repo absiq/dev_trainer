@@ -72,7 +72,7 @@
     letter-spacing: -2%;
 }
 /* estilizando botão */
-.btn {
+/* .btn {
     text-decoration: none;
     text-align: center;
     background-color:#57C1E4;
@@ -85,17 +85,7 @@
     font-size: 15px;
     transition: background 1s;
     align-items: flex-start;
-}
-
-.btn:hover, .btn:focus {
-    background: var(--gradient) !important;
--webkit-background-clip: none !important;
--webkit-text-fill-color: #000207 !important;
-border: 5px solid #fff !important; 
-box-shadow: #222 1px 0 10px;
-text-decoration: underline;
-}
-
+} */
 
 .containerequipes{
     display: flex;
