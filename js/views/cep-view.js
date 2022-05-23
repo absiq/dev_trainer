@@ -17,12 +17,4 @@ class ViewCep {
     apagaErroCep() {
         $('#respostaCep').empty()
     }
-
-    mostraConfirmacaoCadastro() {
-        $('#popup-ok').css('display', 'flex')
-    }
-
-    apagaConfirmacaoCadastro() {
-        $('#popup-ok').css('display', 'none')
-    }
 }
