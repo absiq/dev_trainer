@@ -21,9 +21,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-main {
-    height: 85vh;
-    background-image: url(./cavalheiro_header.jpg);
+.mainsection {
+    height: 100vh;
+    background-image: url(../assets/imgs/cavalheiro_header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
