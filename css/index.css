@@ -9,6 +9,9 @@
 
 /* ESQUELETO DO HTML */
 
+body {
+    background-color: #1B1919;
+}
 
 /* PALETA DE CORES DA DEV TRAINER
 #7CF182
@@ -68,7 +71,7 @@
 /* HOVER DO BOTÃO "CONFIRA NOSSOS PLANOS!" */
 .btnconfiranossosplanos:hover {
     color: #000000;
-     background-color: #F8A342;
+    background-color: #F8A342;
 }
 
 .section1 {
