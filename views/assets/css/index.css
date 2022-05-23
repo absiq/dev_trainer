@@ -22,7 +22,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 main {
-    height: 100vh;
+    height: 85vh;
     background-image: url(./cavalheiro_header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
