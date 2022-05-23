@@ -6,7 +6,7 @@
     font-family: "Press_Start_2P";
 } */
 body{
-    background-image: url("../../castelo.jpg");
+    background-image: url("../assets/imgs/castelo.jpg");
     background-size: cover;
     background-color: #fafafa;
     display: flex;
