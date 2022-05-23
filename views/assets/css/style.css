@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* estilizando pagina geral */
+.containergeralplanos, .containergeralequipes{
+    width: 100%;
+    height:10%; 
+    align-content: center;
+    background-color: #fafafa;
+}
+
+
+/* estilizando blocos dos planos  */
+.containerplanos{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.planobasico,
+.planojunior,
+.planopleno,
+.planosenior {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 1%;
+    padding-left: 3%;
+}
+
+.titulosplanos, .titulosequipes {
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    padding: 4%;
+}
+
+.descricaoplanos {
+    font-size: 200%;
+    letter-spacing: -1%;
+}
+
+.lema,
+.fases2,
+.aulas2 {
+    font-size:70%;
+}
+
+.preco {
+    font-size: 200%;
+    letter-spacing: -2%;
+}
+
+.preco2 {
+    font-size: 50%;
+}
+
+.preco3 {
+    font-size: 40%;
+    letter-spacing: 0%
+}
+
+.fases {
+    font-size: 200%;
+}
+
+.aulas {
+    font-size: 200%;
+    letter-spacing: -2%;
+}
+/* estilizando botão */
+.btn {
+    text-decoration: none;
+    text-align: center;
+    background-color:#57C1E4;
+    border: 2% solid #000207;
+    border-radius: 1em;
+    padding: 4% 8px;
+    user-select: none;
+    cursor: pointer;
+    font-family: "Press Start 2P";
+    font-size: 15px;
+    transition: background 1s;
+    align-items: flex-start;
+}
+
+.btn:hover, .btn:focus {
+    background: var(--gradient) !important;
+-webkit-background-clip: none !important;
+-webkit-text-fill-color: #000207 !important;
+border: 5px solid #fff !important; 
+box-shadow: #222 1px 0 10px;
+text-decoration: underline;
+}
+
+
+.containerequipes{
+    display: flex;
+    justify-content: space-evenly;
+ padding-left: 10%;
+ padding-right: 10%;
+}
+
+.card {
+    width: 19%;
+    padding-bottom: 13%;
+   
+}
+
+.card-title, .card-subtitle, .card-text {
+  padding: 2%;
+}
+
+.card-link {
+    text-decoration: none;
+    padding: 0x;
+}
+
+
+
+
+
+
+
+
+
+
