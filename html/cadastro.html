@@ -16,29 +16,51 @@
 <div class="container-form">
   <div class="form-area">
   <form class="row g-3">
-<!-- TODO: Campo de número -->
-<!-- TODO: Campo de RG com verificação -->
+    <!-- TODO: Verificação de RG no model -->
     <div class="col-md-6">
       <label for="inputEmail4" class="form-label">Email</label>
       <input type="email" class="form-control" id="inputEmail4">
     </div>
     <div class="col-md-6">
+      <label for="inputRG" class="form-label">RG</label>
+      <input type="text" class="form-control" id="inputRG">
+    </div>
+    <div class="col-md-6">
       <label for="inputPassword4" class="form-label">Senha</label>
       <input type="password" class="form-control" id="inputPassword4">
     </div>
-    <!-- TODO: Campo de confirmar senha com verificação -->
-    <div class="col-md-4">
+    <div class="col-md-6">
+      <label for="inputPasswordCheck" class="form-label">Confirme sua senha</label>
+      <input type="password" class="form-control" id="inputPasswordCheck">
+    </div>
+    <!-- TODO: Verificação de senha no model -->
+    <div class="col-md-6">
+      <label for="inputNumber" class="form-label">Número de telefone</label>
+      <input type="text" class="form-control" id="inputNumber">
+      <!-- TODO: Verificação de campo de número no model -->
+    </div>
+    <div class="col-md-6">
+      <label for="inputPlano" class="form-label">Plano</label>
+      <select id="inputPlano" class="form-select">
+        <option selected>Escolha...</option>
+        <option>Gratuito</option>
+        <option>Junior</option>
+        <option>Pleno</option>
+        <option>Sênior</option>
+      </select>
+    </div>
+    <div class="col-md-6">
       <label for="inputCep" class="form-label">CEP</label>
       <input type="text" class="form-control" id="inputCep">
       <span id="respostaCep"></span>
     </div>
-    <div class="col-md-8">
-      <label for="inputAddress" class="form-label">Endereço</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="Avenida XXX, 123">
+    <div class="col-md-6">
+      <label for="inputAddress" class="form-label">Rua</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Avenida XXX">
     </div>
     <div class="col-md-6">
       <label for="inputAddress2" class="form-label">Complemento</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento ou andar">
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, andar">
     </div>
     <div class="col-md-6">
       <label for="inputCity" class="form-label">Cidade</label>
@@ -51,16 +73,6 @@
         <div class="col-md-6">
           <label for="inputState" class="form-label">Bairro</label>
           <input type="text" class="form-control" id="inputNeighborhood">
-        </div>
-        <div class="col-md-12">
-          <label for="inputPlano" class="form-label">Plano</label>
-          <select id="inputPlano" class="form-select">
-            <option selected>Escolha...</option>
-            <option>Gratuito</option>
-            <option>Junior</option>
-            <option>Pleno</option>
-            <option>Sênior</option>
-          </select>
         </div>
         <div class="col-12">
           <div class="form-check">
