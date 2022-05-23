@@ -61,6 +61,7 @@ body {
 }
 
 .popup-error {
+    display: none;
     text-align: center;
     width: 90%;
     background-color: #f87f76;
@@ -68,6 +69,7 @@ body {
 }
 
 .popup-ok {
+    display: none;
     text-align: center;
     width: 90%;
     background-color: #7CF182;
