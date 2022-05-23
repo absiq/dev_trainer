@@ -8,4 +8,20 @@ class ViewCep {
         $('#inputState').val(model.getEstado())
         $('#inputNeighborhood').val(model.getBairro())
     }
+
+    mostraErroCep() {
+        $('#popup-error').css('display', 'flex')
+    }
+
+    apagaErroCep() {
+        $('#popup-error').css('display', 'none')
+    }
+
+    mostraConfirmacaoCadastro() {
+        $('#popup-ok').css('display', 'flex')
+    }
+
+    apagaConfirmacaoCadastro() {
+        $('#popup-ok').css('display', 'none')
+    }
 }
