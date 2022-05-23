@@ -50,36 +50,3 @@ body {
     background-color: #F8A342;
     border: 0.1em solid #7d5220;
 }
-
-.popup-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #4e3c3cda;
-    font-weight:500;
-}
-
-.popup-error {
-    display: none;
-    text-align: center;
-    width: 90%;
-    background-color: #f87f76;
-    border: 0.1em solid #9b2211;
-}
-
-.popup-ok {
-    display: none;
-    text-align: center;
-    width: 90%;
-    background-color: #7CF182;
-    border: 0.1em solid #305d32;
-}
-
-.popup-email {
-    display: none;
-    text-align: center;
-    width: 90%;
-    background-color: #f87f76;
-    border: 0.1em solid #9b2211;
-}
