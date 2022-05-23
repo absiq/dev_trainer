@@ -75,3 +75,11 @@ body {
     background-color: #7CF182;
     border: 0.1em solid #305d32;
 }
+
+.popup-email {
+    display: none;
+    text-align: center;
+    width: 90%;
+    background-color: #f87f76;
+    border: 0.1em solid #9b2211;
+}
