@@ -10,11 +10,12 @@ class ViewCep {
     }
 
     mostraErroCep() {
-        $('#popup-error').css('display', 'flex')
+        $('#respostaCep').text('O CEP inserido é inválido')
+        $('#respostaCep').css('color', '#c76464')
     }
 
     apagaErroCep() {
-        $('#popup-error').css('display', 'none')
+        $('#respostaCep').empty()
     }
 
     mostraConfirmacaoCadastro() {
