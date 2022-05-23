@@ -28,9 +28,7 @@ class ModelCep {
         }
 
     validaCep() {
-    // TODO: Função de validação do CEP -- Precisa ter 8 dígitos & estar entre 0 e 9
     const cepInput = $('#inputCep').val()
-    const numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     if (cepInput.length == 8) {
         return true
     } else {
