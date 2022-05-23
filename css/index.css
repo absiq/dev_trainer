@@ -24,7 +24,8 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-.mainsection {
+/* BACKGROUND DA NOSSA */
+.background-e-descricao {
     height: 100vh;
     background-image: url(../assets/imgs/cavalheiro_header.jpg);
     background-repeat: no-repeat;
@@ -74,14 +75,28 @@ body {
     background-color: #F8A342;
 }
 
-.section1 {
-    height: 50vh;
-    background-color: #ff0000;
-    color: white;
+/* CARROSSEL DO GOLDEN CIRCLE DA DEV TRAINER */
+.carrosselgoldencircle {
+    height: 70vh;
 }
 
-.section2 {
-    height: 50vh;
-    background-color: green;
-    color: white;
+/* CARROSSEL 1 */
+.carrossel-porque{
+    height: 70vh;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+/* CARROSSEL 2 */
+.carrossel-como{
+    height: 70vh;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+/* CARROSSEL 3 */
+.carrossel-oque{
+    height: 70vh;
+    object-fit: cover;
+    object-position: bottom;
 }
