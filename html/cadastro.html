@@ -18,20 +18,22 @@
   <form class="row g-3">
     <!-- TODO: Verificação de RG no model -->
     <div class="col-md-6">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4">
+      <label for="inputEmail" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail">
+      <span id="respostaEmail"></span>
     </div>
     <div class="col-md-6">
       <label for="inputRG" class="form-label">RG</label>
       <input type="text" class="form-control" id="inputRG">
     </div>
     <div class="col-md-6">
-      <label for="inputPassword4" class="form-label">Senha</label>
-      <input type="password" class="form-control" id="inputPassword4">
+      <label for="inputPassword" class="form-label">Senha</label>
+      <input type="password" class="form-control" id="inputPassword">
     </div>
     <div class="col-md-6">
       <label for="inputPasswordCheck" class="form-label">Confirme sua senha</label>
       <input type="password" class="form-control" id="inputPasswordCheck">
+      <span id="respostaPasswordCheck"></span>
     </div>
     <!-- TODO: Verificação de senha no model -->
     <div class="col-md-6">
@@ -99,5 +101,11 @@
   <script src="../js/models/cep-model.js"></script>
   <script src="../js/views/cep-view.js"></script>
   <script src="../js/controllers/cep-controller.js"></script>
+  <script src="../js/models/email-model.js"></script>
+  <script src="../js/views/email-view.js"></script>
+  <script src="../js/controllers/email-controller.js"></script>
+  <script src="../js/models/senha-model.js"></script>
+  <script src="../js/views/senha-view.js"></script>
+  <script src="../js/controllers/senha-controller.js"></script>
 </body>
 </html>
