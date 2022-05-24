@@ -2,10 +2,11 @@ class ViewEmail {
     constructor() {}
 
     mostraErroEmail() {
-        $('#popup-email').css('display', 'flex')
+        $('#respostaEmail').text('O e-mail inserido é inválido')
+        $('#respostaEmail').css('color', '#c76464')
     }
 
     apagaErroEmail() {
-        $('#popup-email').css('display', 'none')
+        $('#respostaEmail').empty()
     }
 }

@@ -1,10 +1,10 @@
 class ModelEmail {
     constructor() {
-        this._email = ''
+        this._email = $('#inputEmail').val()
     }
 
     validaEmail(email) {
-        email.indexOf('@') !== -1 && email.indexOf('.') !== -1 ? true : false
+        return email.indexOf('@') !== -1 && email.indexOf('.') !== -1 ? true : false
     }
 
     getEmail() {
