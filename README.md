@@ -11,14 +11,14 @@ Projeto de conclusão de segundo módulo da formação de Web Dev Full Stack da 
 A Dev Trainer surge com o objetivo de ser uma plataforma de aprendizado de programação que estimula o ensino dinâmico e motiva os estudos através de um sistema de gamificação, mantendo o usuário motivado com um sistema de recompensas.
 
 # 💻 Tecnologias utilizadas
-
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML5</a>
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS3</a>
-<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a>
-<a href="https://developer.mozilla.org/pt-BR/docs/Glossary/jQuery">Jquery</a>
-<a href="https://www.alura.com.br/artigos/bootstrap?gclid=Cj0KCQjwhLKUBhDiARIsAMaTLnFkGzyVbLSjt4Yh96uYup4K0PMAwBH3pM_1OMhVsbJlQq1HKqS9mBEaAlw1EALw_wcB">Bootstrap</a>
-<a href="https://viacep.com.br/">API ViaCEP</a>
-
+<div display:'flex' flex-direction:'column'>
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">HTML5</a>
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS">CSS3</a>
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a>
+  <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/jQuery">Jquery</a>
+  <a href="https://www.alura.com.br/artigos/bootstrap?gclid=Cj0KCQjwhLKUBhDiARIsAMaTLnFkGzyVbLSjt4Yh96uYup4K0PMAwBH3pM_1OMhVsbJlQq1HKqS9mBEaAlw1EALw_wcB">Bootstrap</a>
+  <a href="https://viacep.com.br/">API ViaCEP</a>
+</div>
 # 👀 Preview
 ![inicio_devtrainer](https://user-images.githubusercontent.com/102622514/170130624-da8d7c16-733d-43d7-a693-1d4115c050ed.png)
 
