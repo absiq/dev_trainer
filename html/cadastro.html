@@ -16,33 +16,53 @@
 <div class="container-form">
   <div class="form-area">
   <form class="row g-3">
-    <div class="popup-div">
-    <div class="col-md-12 popup-error">
-      <p>O CEP inserido é inválido</p>
-    </div>
-    <div class="col-md-12 popup-ok">
-      <p>Cadastro confirmado! Favor checar o e-mail</p>
-    </div>
-  </div>
+    <!-- TODO: Verificação de RG no model -->
     <div class="col-md-6">
-      <label for="inputEmail4" class="form-label">Email</label>
-      <input type="email" class="form-control" id="inputEmail4">
+      <label for="inputEmail" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail">
+      <span id="respostaEmail"></span>
     </div>
     <div class="col-md-6">
-      <label for="inputPassword4" class="form-label">Senha</label>
-      <input type="password" class="form-control" id="inputPassword4">
+      <label for="inputRG" class="form-label">RG</label>
+      <input type="text" class="form-control" id="inputRG">
     </div>
-    <div class="col-md-4">
+    <div class="col-md-6">
+      <label for="inputPassword" class="form-label">Senha</label>
+      <input type="password" class="form-control" id="inputPassword">
+    </div>
+    <div class="col-md-6">
+      <label for="inputPasswordCheck" class="form-label">Confirme sua senha</label>
+      <input type="password" class="form-control" id="inputPasswordCheck">
+      <span id="respostaPasswordCheck"></span>
+    </div>
+    <!-- TODO: Verificação de senha no model -->
+    <div class="col-md-6">
+      <label for="inputNumber" class="form-label">Número de telefone</label>
+      <input type="text" class="form-control" id="inputNumber">
+      <!-- TODO: Verificação de campo de número no model -->
+    </div>
+    <div class="col-md-6">
+      <label for="inputPlano" class="form-label">Plano</label>
+      <select id="inputPlano" class="form-select">
+        <option selected>Escolha...</option>
+        <option>Básico</option>
+        <option>Junior</option>
+        <option>Pleno</option>
+        <option>Senior</option>
+      </select>
+    </div>
+    <div class="col-md-6">
       <label for="inputCep" class="form-label">CEP</label>
       <input type="text" class="form-control" id="inputCep">
+      <span id="respostaCep"></span>
     </div>
-    <div class="col-md-8">
-      <label for="inputAddress" class="form-label">Endereço</label>
-      <input type="text" class="form-control" id="inputAddress" placeholder="Avenida XXX, 123">
+    <div class="col-md-6">
+      <label for="inputAddress" class="form-label">Rua</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Avenida XXX">
     </div>
     <div class="col-md-6">
       <label for="inputAddress2" class="form-label">Complemento</label>
-      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento ou andar">
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, andar">
     </div>
     <div class="col-md-6">
       <label for="inputCity" class="form-label">Cidade</label>
@@ -55,16 +75,6 @@
         <div class="col-md-6">
           <label for="inputState" class="form-label">Bairro</label>
           <input type="text" class="form-control" id="inputNeighborhood">
-        </div>
-        <div class="col-md-12">
-          <label for="inputPlano" class="form-label">Plano</label>
-          <select id="inputPlano" class="form-select">
-            <option selected>Escolha...</option>
-            <option>Gratuito</option>
-            <option>Junior</option>
-            <option>Pleno</option>
-            <option>Sênior</option>
-          </select>
         </div>
         <div class="col-12">
           <div class="form-check">
@@ -91,5 +101,11 @@
   <script src="../js/models/cep-model.js"></script>
   <script src="../js/views/cep-view.js"></script>
   <script src="../js/controllers/cep-controller.js"></script>
+  <script src="../js/models/email-model.js"></script>
+  <script src="../js/views/email-view.js"></script>
+  <script src="../js/controllers/email-controller.js"></script>
+  <script src="../js/models/senha-model.js"></script>
+  <script src="../js/views/senha-view.js"></script>
+  <script src="../js/controllers/senha-controller.js"></script>
 </body>
 </html>

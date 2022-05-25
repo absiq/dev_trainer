@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 *{
     margin: 0;
@@ -19,6 +20,31 @@ body{
 
 .total{
     width: 40%;
+=======
+@font-face {
+    font-family:"Press_Start_2P";
+    src: url("../fonts/Press_Start_2P/PressStart2P-Regular.ttf");
+}
+/* *{  
+    font-family: "Press_Start_2P";
+} */
+body{
+    background-image: url("../../castelo.jpg");
+    background-size: cover;
+    background-color: #fafafa;
+    display: flex;
+    height: 100%;
+    background-repeat: no-repeat;
+    
+}
+h5{
+    display: flex;
+}
+
+.total{
+    width: 40%;
+    opacity: 0.9;
+>>>>>>> origin/andre
     margin-top: 2%;
     padding-top: 0.5%;
     padding-bottom: 2%;
@@ -26,6 +52,7 @@ body{
     margin-right: 15%;
     padding-left: 5%;
     padding-right: 5%;
+<<<<<<< HEAD
     border: solid;
     border-color: #FFFFFF;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -33,6 +60,14 @@ body{
 }
 .total h5{
     margin-top: 5%;
+=======
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+}
+.total h5{
+    margin-top: 25%;
+>>>>>>> origin/andre
     font-family: "Press_Start_2P";
 }
 .formulario{
@@ -50,20 +85,32 @@ body{
 .instagram a{
     display: inline-block;
     width: 90%;
+<<<<<<< HEAD
     background-color: #cf7a18;
+=======
+    background-color: #F8A342;
+>>>>>>> origin/andre
     color: white;
     text-decoration: none;
 }
 .emailGoogle a{
     display: inline-block;
     width: 90%;
+<<<<<<< HEAD
     background-color:#309dc2;
+=======
+    background-color:#57C1E4;
+>>>>>>> origin/andre
     color: white;
     text-decoration: none;
 }
 #botaoconectar{
+<<<<<<< HEAD
     background-color: #6fca74ff;
     border:#6fca74ff solid;
+=======
+    background-color: #7CF182;
+>>>>>>> origin/andre
 }
 
 /* #7CF182
