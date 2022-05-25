@@ -1,11 +1,18 @@
 /* FONTES IMPORTADAS */
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+
 
 /* ZERANDO TODO O MARGIN E PADDING DO ESQUELETO */
 * {
     margin: 0%;
     padding: 0%;
 }
+
+/* FONTES IMPORTADAS */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /* ESQUELETO DO HTML */
 
@@ -18,11 +25,6 @@ body {
 #57C1E4
 #F8A342
 #ffffff */
-
-/* FONTES IMPORTADAS */
-@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 /* BACKGROUND DA NOSSA */
 .background-e-descricao {
@@ -78,25 +80,53 @@ body {
 /* CARROSSEL DO GOLDEN CIRCLE DA DEV TRAINER */
 .carrosselgoldencircle {
     height: 70vh;
+    background-color: #000000;
+}
+
+/* BACKGROUND DO CARROSSEL */
+.backgroundcarrossel {
+    background-color: #000000;
 }
 
 /* CARROSSEL 1 */
-.carrossel-porque{
+.carrossel-porque {
     height: 70vh;
     object-fit: cover;
     object-position: bottom;
+
 }
 
 /* CARROSSEL 2 */
-.carrossel-como{
+.carrossel-como {
     height: 70vh;
     object-fit: cover;
     object-position: bottom;
 }
 
 /* CARROSSEL 3 */
-.carrossel-oque{
+.carrossel-oque {
     height: 70vh;
     object-fit: cover;
     object-position: bottom;
+}
+
+
+/* TITULO DO CARROSSEL */
+.titulocarrossel {
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    font-family: "Press Start 2P", cursive;
+}
+
+/* DESCRIÇÃO DO TITULO DO CARROSSEL */
+.paragrafocarrossel {
+    font-size: 120%;
+    color: #57C1E4;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* DIV DO TITULO E DA DESCRIÇÃO */
+.carrossels {
+    text-align: center;
 }
