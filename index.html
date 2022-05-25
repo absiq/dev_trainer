@@ -1,73 +1,75 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="./views/assets/css/indexstyle.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/index.css" />
-        <link rel="stylesheet" href="./css/header.css" />
-        <link rel="stylesheet" href="./css/indexstyle.css">
-        <title>Dev Trainer</title>
-    </head>
-    
-    <body>
-    
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./views/assets/css/indexstyle.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/indexstyle.css">
+    <title>Dev Trainer</title>
+</head>
+
+<body>
+
     <!-- NOSSA LOGO COM O NOME DA DEV TRAINER E OS BOTÕES DE NAVEGAÇÃO -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid divnavegacao">
-            <!-- DIV DA LOGO COM O TITULO DA DEV TRAINER -->
-            <div class="logoetitulo">
-                <img src="https://media1.giphy.com/media/J7kWJnzD84crTRJk8w/200w.webp?cid=ecf05e4719sr9zis3f74qawjzcuk5vluiv2kk2qvlqkdrhiq&rid=200w.webp&ct=s"
-                width="15%" alt="logo da dev trainer">
-                <a class="navbar-brand titulodevtrainer" href="./index.html">
-                    <h1 class="devtrainer">DEV TRAINER</h1>
-                </a>
+            <div class="container-fluid divnavegacao">
+                <!-- DIV DA LOGO COM O TITULO DA DEV TRAINER -->
+                <div class="logoetitulo">
+                    <img src="https://media1.giphy.com/media/J7kWJnzD84crTRJk8w/200w.webp?cid=ecf05e4719sr9zis3f74qawjzcuk5vluiv2kk2qvlqkdrhiq&rid=200w.webp&ct=s"
+                        width="15%" alt="logo da dev trainer">
+                    <a class="navbar-brand titulodevtrainer" href="./index.html">
+                        <h1 class="devtrainer">DEV TRAINER</h1>
+                    </a>
+                </div>
+                <button class="navbar-toggler hamburg" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon hamburg"></span>
+                </button>
+                <!-- DIV DOS BOTÕES -->
+                <div class="collapse navbar-collapse justify-content-end divbtns" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <button type="button" class="btn btn-sm btnnossoscursos botoesnav">
+                            Nossos Cursos
+                        </button>
+                        <button type="button" class="btn btn-sm btnnossaequipe botoesnav">
+                            Nossa equipe
+                        </button>
+                        <button type="button" class="btn btn-sm btnjatenhoconta botoesnav">
+                            Já tenho conta!
+                        </button>
+                        <button type="button" class="btn btn-primary btn-lg btnassinaragora">
+                            Assinar agora!
+                        </button>
+                    </div>
+                </div>
             </div>
-            <button class="navbar-toggler hamburg" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon hamburg"></span>
-        </button>
-        <!-- DIV DOS BOTÕES -->
-        <div class="collapse navbar-collapse justify-content-end divbtns" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <button type="button" class="btn btn-sm btnnossoscursos botoesnav">
-                    Nossos Cursos
-                </button>
-                <button type="button" class="btn btn-sm btnnossaequipe botoesnav">
-                    Nossa equipe
-                </button>
-                <button type="button" class="btn btn-sm btnjatenhoconta botoesnav">
-                    Já tenho conta!
-                </button>
-                <button type="button" class="btn btn-primary btn-lg btnassinaragora">
-                    Assinar agora!
+        </nav>
+    </header>
+
+    <!--DESCRIÇÃO SOBRE O QUE A DEV TRAINER É, NO HEADER. (BEM OBJETIVA PARA O USUÁRIO ENTENDER DO QUE SE TRATA A DEV TRAINER) -->
+    <section class="mainsection">
+        <div class="containermain">
+            <div class="descricaodevtrainer">
+                <h1 class="titulodescricao">Seja bem-vindo a Dev Trainer</h1>
+                <p class="descricao"><strong>Sua plataforma digital de cursos de programação através de jogos para
+                        desenvolvedores cansados de aulas monótonas.</strong></p>
+                <p><strong>Quer fazer parte?</strong></p>
+                <button type="button" class="btn btn-primary btn-lg btnconfiranossosplanos ">
+                    Confira nossos planos
                 </button>
             </div>
         </div>
-    </div>
-</nav>
-</header>
+    </section>
 
-<!--DESCRIÇÃO SOBRE O QUE A DEV TRAINER É, NO HEADER. (BEM OBJETIVA PARA O USUÁRIO ENTENDER DO QUE SE TRATA A DEV TRAINER) -->
-<section class="mainsection">
-<div class="containermain">
-    <div class="descricaodevtrainer">
-        <h1 class="titulodescricao">Seja bem-vindo a Dev Trainer</h1>
-        <p class="descricao"><strong>Sua plataforma digital de cursos de programação através de jogos para desenvolvedores cansados de aulas monótonas.</strong></p>
-        <p><strong>Quer fazer parte?</strong></p>
-        <button type="button" class="btn btn-primary btn-lg btnconfiranossosplanos ">
-            Confira nossos planos
-        </button>
-    </div>
-</div>
-</section>
-    
-<!-- INICIO DO TITULO DOS PLANOS -->
+    <!-- INICIO DO TITULO DOS PLANOS -->
     <div class="containergeralplanos">
         <div class="titulosplanos">
             <h2>
@@ -115,7 +117,7 @@
                     <span class="fases2">Fases</span>
                 </p>
                 <span>
-                    <button  id="planosbasico" type="button" class="btn btn-primary btn-lg btnassinaragora">
+                    <button id="planosbasico" type="button" class="btn btn-primary btn-lg btnassinaragora">
                         Assinar agora!
                     </button>
                 </span>
@@ -154,7 +156,7 @@
                 </p>
 
                 <span>
-                    <button id="planosjunior"  type="button" class="btn btn-primary btn-lg btnassinaragora">
+                    <button id="planosjunior" type="button" class="btn btn-primary btn-lg btnassinaragora">
                         Assinar agora!
                     </button>
                 </span>
@@ -195,7 +197,7 @@
                     <span class="fases2">Fases</span>
                 </p>
                 <span>
-                    <button  id="planospleno"  type="button" class="btn btn-primary btn-lg btnassinaragora">
+                    <button id="planospleno" type="button" class="btn btn-primary btn-lg btnassinaragora">
                         Assinar agora!
                     </button>
                 </span>
@@ -231,9 +233,9 @@
                     <br>
                     <span class="aulas2">Aulas dinâminas e disponíveis para se adaptar a sua
                         rotina</span>
-                    </p>
-                    <p>
-                        <span class="fases">
+                </p>
+                <p>
+                    <span class="fases">
                         <strong>400</strong>
                     </span>
                     <br>
@@ -241,23 +243,31 @@
                 </p>
 
                 <span>
-                    <button  id="planossenior" type="button" class="btn btn-primary btn-lg btnassinaragora">
+                    <button id="planossenior" type="button" class="btn btn-primary btn-lg btnassinaragora">
                         Assinar agora!
                     </button>
                 </span>
             </div>
         </div>
     </div>
+
+
+    <div>
+
+    </div>
     <!-- FIM DO PLANO SENIOR -->
 
-      <!-- INICIO CAROUSEL -->
+    <!-- INICIO CAROUSEL -->
 
     <section class="section1">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -273,225 +283,243 @@
                         <h5>Second slide label</h5>
                         <p>Some representative placeholder content for the second slide.</p>
                     </div>
-              </div>
-              <div class="carousel-item">
-                  <img src="..." class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
-                      <h5>Third slide label</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-          </div>
-        </section>
-        <br>
-        <section class="section2">
-            <h1>VALORES DA EMPRESA</h1>
-        </section>
-
-           <!-- FIM CAROUSEL -->
-
-<!-- INICIO APRESENTAÇÃO DA EQUIPE -->
-
-<div class="containergeralequipes">
-    <div class="titulosequipes">
-        <h2>
-            Equipe Dev Trainer
-        </h2>
-        <p>Os jogadores por trás da programação</p>
-
-    </div>
-
-<div class ="containerequipes">
-
-    <!--André-->
-    <div class="card">
-        <img src="./assets/imgs/andre.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">André Siqueira</h5>
-          <h6 class="card-subtitle"> Gestão de Conhecimento </h6>
-          <p class="card-text">É a alma da empresa. Solícito e sempre disposto a colocar a mão na massa.</p>
         </div>
-        <div class="card-body">
-            <a href="https://github.com/andre-sqr" target="_blank"><img class="link" src="./assets/imgs/github.png"></a>
-            <a href="https://www.linkedin.com/in/andre-sqr/" target="_blank"><img class="link" src="./assets/imgs/linkedin.png"></a>
+    </section>
+    <br>
+    <section class="section2">
+        <h1>VALORES DA EMPRESA</h1>
+    </section>
+
+    <!-- FIM CAROUSEL -->
+
+    <!-- INICIO APRESENTAÇÃO DA EQUIPE -->
+
+    <div class="containergeralequipes">
+        <div class="titulosequipes">
+            <h2>
+                Equipe Dev Trainer
+            </h2>
+            <p>Os jogadores por trás da programação</p>
+
         </div>
-      </div>
 
-      
+        <div class="containerequipes">
 
-<!--Enrico-->
+            <!--André-->
+            <div class="card">
+                <img src="./assets/imgs/andre.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">André Siqueira</h5>
+                    <h6 class="card-subtitle"> Gestão de Conhecimento </h6>
+                    <p class="card-text">É a alma da empresa. Solícito e sempre disposto a colocar a mão na massa.</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://github.com/andre-sqr" target="_blank"><img class="link"
+                            src="./assets/imgs/github.png"></a>
+                    <a href="https://www.linkedin.com/in/andre-sqr/" target="_blank"><img class="link"
+                            src="./assets/imgs/linkedin.png"></a>
+                </div>
+            </div>
 
 
-      <div class="card">
-        <img src="./assets/imgs/enrico.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Enrico Martins</h5>
-          <h6 class="card-subtitle">Gestão de Gente  </h6>
-          <p class="card-text">Foca no conceito do produto, defensor dos valores e da nossa missão.</p>
+
+            <!--Enrico-->
+
+
+            <div class="card">
+                <img src="./assets/imgs/enrico.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Enrico Martins</h5>
+                    <h6 class="card-subtitle">Gestão de Gente </h6>
+                    <p class="card-text">Foca no conceito do produto, defensor dos valores e da nossa missão.</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://github.com/enricomartins018" target="_blank"><img class="link"
+                            src="./assets/imgs/github.png"></a>
+                    <a href=" https://www.linkedin.com/in/enrico-martins018/" target="_blank"><img class="link"
+                            src="./assets/imgs/linkedin.png"></a>
+                </div>
+            </div>
+
+
+            <!--Erika-->
+            <div class="card">
+                <img src="./assets/imgs/erika.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Erika Rodrigues</h5>
+                    <h6 class="card-subtitle"> Colaboradora </h6>
+                    <p class="card-text">Do setor de qualidade, supervisiona o design UX dos games.</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://github.com/ErikaTav" target="_blank"><img class="link"
+                            src="./assets/imgs/github.png"></a>
+                    <a href="https://www.linkedin.com/in/erikatav-rodrigues/" target="_blank"><img class="link"
+                            src="./assets/imgs/linkedin.png"></a>
+                </div>
+            </div>
+
+
+            <!--Giselle-->
+            <div class="card">
+                <img src="./assets/imgs/giselle.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Giselle Leadebal</h5>
+                    <h6 class="card-subtitle"> Co-facilitadora </h6>
+                    <p class="card-text">Participa do setor criativo, quer sempre implementar algo inovador.</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://github.com/GiselleLeadebal" target="_blank"><img class="link"
+                            src="./assets/imgs/github.png"></a>
+                    <a href="https://www.linkedin.com/in/giselle-leadebal-869528128/" target="_blank"><img class="link"
+                            src="./assets/imgs/linkedin.png"></a>
+                </div>
+            </div>
+
+
+            <!--Samuel-->
+            <div class="card">
+                <img src="./assets/imgs/samuel.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Samuel Cambraia</h5>
+                    <h6 class="card-subtitle"> Colaborador </h6>
+                    <p class="card-text">Em conjunto da Erika coloca em pauta a visão do consumidor final.</p>
+                </div>
+                <div class="card-body">
+                    <a href="https://github.com/samuelcambraia" target="_blank"><img class="link"
+                            src="./assets/imgs/github.png"></a>
+                    <a href="https://www.linkedin.com/in/samuel-cambraia-da-silva-7bb0451a3/" target="_blank"><img
+                            class="link" src="./assets/imgs/linkedin.png"></a>
+                </div>
+            </div>
         </div>
-        <div class="card-body">
-          <a href="https://github.com/enricomartins018" target="_blank"><img class="link" src="./assets/imgs/github.png"></a>
-          <a href=" https://www.linkedin.com/in/enrico-martins018/" target="_blank"><img class="link" src="./assets/imgs/linkedin.png"></a>
-        </div>
-      </div>
-     
 
-<!--Erika-->
-<div class="card">
-    <img src="./assets/imgs/erika.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Erika Rodrigues</h5>
-      <h6 class="card-subtitle"> Colaboradora </h6>
-      <p class="card-text">Do setor de qualidade, supervisiona o design UX dos games.</p>
     </div>
-    <div class="card-body">
-      <a href="https://github.com/ErikaTav" target="_blank"><img class="link" src="./assets/imgs/github.png"></a>
-          <a href="https://www.linkedin.com/in/erikatav-rodrigues/" target="_blank"><img class="link" src="./assets/imgs/linkedin.png"></a>
+
+
+    <div>
+
     </div>
-  </div>
 
+    <!--FIM APRESENTAÇÃO DE EQUIPE-->
 
-<!--Giselle-->
-<div class="card">
-    <img src="./assets/imgs/giselle.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Giselle Leadebal</h5>
-      <h6 class="card-subtitle"> Co-facilitadora </h6>
-      <p class="card-text">Participa do setor criativo, quer sempre implementar algo inovador.</p>
-    </div>
-    <div class="card-body">
-        <a href="https://github.com/GiselleLeadebal" target="_blank"><img class="link" src="./assets/imgs/github.png"></a>
-        <a href="https://www.linkedin.com/in/giselle-leadebal-869528128/" target="_blank"><img class="link" src="./assets/imgs/linkedin.png"></a>
-    </div>
-  </div>
-  
+    <!-- <body class="d-flex flex-column min-vh-100"> -->
 
-<!--Samuel-->
-<div class="card">
-    <img src="./assets/imgs/samuel.jpg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Samuel Cambraia</h5>
-      <h6 class="card-subtitle"> Colaborador </h6>
-      <p class="card-text">Em conjunto da Erika coloca em pauta a visão do consumidor final.</p>
-    </div>
-    <div class="card-body">
-      <a href="https://github.com/samuelcambraia" target="_blank"><img class="link" src="./assets/imgs/github.png"></a>
-        <a href="https://www.linkedin.com/in/samuel-cambraia-da-silva-7bb0451a3/" target="_blank"><img class="link" src="./assets/imgs/linkedin.png"></a>
-    </div>
-  </div>
-</div>
-
-</div>
-
-<!--FIM APRESENTAÇÃO DE EQUIPE-->
-
-  <!-- <body class="d-flex flex-column min-vh-100"> -->
-    
     <footer class="text-center text-lg-start bg-light text-muted mt-auto">
-      <!-- Section: Links  -->
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-          <!-- Grid row -->
-          <div class="row mt-3">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <!-- Content -->
-              <h6 class="text-uppercase fw-bold mb-4">
-                <i class="fa-solid fa-laptop-code fa-beat"></i> Dev Trainer
-            </h6>
-            <p>
-              Acreditamos em uma educação dinâmica e na diversão como potencializadora do aprendizado e propulsora de novos hábitos
-            </p>
-          </div>
-          <!-- Grid column -->
-          
-          <!-- Grid column -->
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Equipe
-            </h6>
-            <p>
-              <a href="#!" class="text-reset">André Siqueira</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Enrico Martins</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Érika Rodrigues</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Giselle Leadebal</a>
-            </p>
-            <p>
-                <a href="#!" class="text-reset">Samuel Cambraia</a>
-              </p>
-            </div>
-            <!-- Grid column -->
-            
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">
-                Atalhos
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">Home</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Contato</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Cadastro</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Login</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Recupere sua senha</a>
-              </p>
-            </div>
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">
-                Contato
-              </h6>
-              <button type="button" class="btn btn-primary">Fale conosco</button>
-            </div>
-          </section>
-          <!-- Section: Links  -->
-          
-          <!-- Copyright -->
-          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fa-solid fa-laptop-code fa-beat"></i> Dev Trainer
+                        </h6>
+                        <p>
+                            Acreditamos em uma educação dinâmica e na diversão como potencializadora do aprendizado e
+                            propulsora de novos hábitos
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Equipe
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">André Siqueira</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Enrico Martins</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Érika Rodrigues</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Giselle Leadebal</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Samuel Cambraia</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Atalhos
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Home</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Contato</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Cadastro</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Login</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Recupere sua senha</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contato
+                        </h6>
+                        <button type="button" class="btn btn-primary">Fale conosco</button>
+                    </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
             © 2022 Copyright: Front-Enders
             <p class="text-reset fw-bold">Projeto de fins educacionais. Todos os direitos reservados</p>
-          </div>
-          <!-- Copyright -->
-        </footer>
-   
-        <br>
-        <br>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <br>
+    <br>
 
     <!-- SCRIPTS DA INDEX (BOOTSTRAP E JAVASCRIPT) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
     <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
     <script src="https://kit.fontawesome.com/7417bec6ab.js" crossorigin="anonymous"></script>

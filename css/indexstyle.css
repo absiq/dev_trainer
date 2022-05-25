@@ -1,15 +1,23 @@
+/*ADICIONANDO FONT DO JOGO*/
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-/* estilizando pagina geral */
-.containergeralplanos, .containergeralequipes{
-    width: 100%; 
+
+
+/*PADRONIZANDO COR DO BACKGROUND*/
+body {
+    background-color: #fafafa;
+}
+
+/* ESTILIZANDO TITULO PLANOS + BLOCOS DO PLANO */
+.containergeralplanos,
+.containergeralequipes {
+    width: 100%;
     align-content: center;
     background-color: #fafafa;
 }
 
-
-/* estilizando blocos dos planos  */
-.containerplanos{
+/* ESTILIZANDO BLOCOS DO PLANO */
+.containerplanos {
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -17,9 +25,8 @@
     padding-top: 2%;
     padding-left: 3%;
     padding-right: 3%;
-    font-family: 'Anton', sans-serif;
-
-
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 4%;
 
 }
 
@@ -27,6 +34,11 @@
 .planojunior,
 .planopleno,
 .planosenior {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,9 +49,10 @@
     background-color: white;
 }
 
-.titulosplanos, .titulosequipes {
+.titulosplanos,
+.titulosequipes {
     text-align: center;
-    font-family: 'Press Start 2P', cursive;
+    font-family: "Press Start 2P";
     padding: 4%;
 }
 
@@ -51,7 +64,7 @@
 .lema,
 .fases2,
 .aulas2 {
-    font-size:70%;
+    font-size: 70%;
 }
 
 .preco {
@@ -76,31 +89,37 @@
     font-size: 200%;
     letter-spacing: -2%;
 }
-/* estilizando botão */
+
+/* ESTILIZANDO FONT DO BOTÃO */
 .btn {
     font-family: "Press Start 2P";
-} 
-.containerequipes{
+}
+
+/*ESTILIZANDO CARDS DA EQUIPE*/
+.containerequipes {
     display: flex;
     justify-content: space-evenly;
- padding-left: 10%;
- padding-right: 10%;
- font-family: 'Anton', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: 'Arial', sans-serif;
 }
 
 .card {
     width: 19%;
     padding-bottom: 0%;
-   
-}
-
-.card-title, .card-subtitle, .card-text {
-  padding: 4%;
 
 }
 
-.card-title, .card-subtitle{
-font-weight: bold;
+.card-title,
+.card-subtitle,
+.card-text {
+    padding: 4%;
+
+}
+
+.card-title,
+.card-subtitle {
+    font-weight: bold;
 
 }
 
@@ -109,13 +128,31 @@ font-weight: bold;
     padding: 0x;
 }
 
+
+/*iCONES GITHUB E LINKEDIN*/
 .link {
     width: 2em;
     padding: 1%;
+
 }
 
 
+/*APLICANDO RESPONSIVIDADE*/
+/*PLANOS*/
 
+@media (max-width: 680px) {
+    .containerplanos {
+        display: flex;
+        flex-direction: column;
+    }
+}
 
+/*EQUIPE*/
 
-
+@media (max-width: 680px) {
+    .containerequipes {
+        display: flex;
+        flex-direction: column;
+        width: 500%;
+    }
+}
