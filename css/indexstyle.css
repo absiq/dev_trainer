@@ -27,6 +27,7 @@ body {
     padding-right: 3%;
     font-family: 'Arial', sans-serif;
     margin-bottom: 4%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
 }
 
@@ -107,6 +108,7 @@ body {
 .card {
     width: 19%;
     padding-bottom: 0%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 
 }
 
