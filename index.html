@@ -37,7 +37,7 @@
                 <div class="collapse navbar-collapse justify-content-end divbtns" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <button type="button" class="btn btn-sm btnnossoscursos botoesnav">
-                            Nossos Cursos
+                            Nossos Planos
                         </button>
                         <button type="button" class="btn btn-sm btnnossaequipe botoesnav">
                             Nossa equipe
@@ -45,7 +45,7 @@
                         <button type="button" class="btn btn-sm btnjatenhoconta botoesnav">
                             Já tenho conta!
                         </button>
-                        <button type="button" class="btn btn-primary btn-lg btnassinaragora">
+                        <button onclick="cadastrando()" type="button" class="btn btn-primary btn-lg btnassinaragora">
                             Assinar agora!
                         </button>
                     </div>
@@ -55,13 +55,13 @@
     </header>
 
     <!--DESCRIÇÃO SOBRE O QUE A DEV TRAINER É, NO HEADER. (BEM OBJETIVA PARA O USUÁRIO ENTENDER DO QUE SE TRATA A DEV TRAINER) -->
-    <section class="mainsection">
+    <section class="background-e-descricao">
         <div class="containermain">
             <div class="descricaodevtrainer">
                 <h1 class="titulodescricao">Seja bem-vindo a Dev Trainer</h1>
-                <p class="descricao"><strong>Sua plataforma digital de cursos de programação através de jogos para
-                        desenvolvedores cansados de aulas monótonas.</strong></p>
-                <p><strong>Quer fazer parte?</strong></p>
+                <p class="descricao">Sua plataforma digital de cursos de programação através de jogos para
+                    desenvolvedores cansados de aulas monótonas.</p>
+                <p>Quer fazer parte?</p>
                 <button type="button" class="btn btn-primary btn-lg btnconfiranossosplanos ">
                     Confira nossos planos
                 </button>
@@ -91,14 +91,9 @@
                 </p>
                 <p>
                     <span class="preco">
-
                         <strong>Grátis</strong>
-
                     </span>
-
                 </p>
-
-
                 <p>
                     <span class="aulas">
                         <strong>Online</strong>
@@ -107,8 +102,6 @@
                     <span class='aulas2'>Aulas dinâminas e disponíveis para se adaptar a sua
                         rotina</span>
                 </p>
-
-
                 <p>
                     <span class="fases">
                         <strong>100</strong>
@@ -250,17 +243,11 @@
             </div>
         </div>
     </div>
-
-
-    <div>
-
-    </div>
     <!-- FIM DO PLANO SENIOR -->
 
-    <!-- INICIO CAROUSEL -->
-
-    <section class="section1">
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <!-- CARROSEL DO GOLDEN CIRCLE DA DEV TRAINER -->
+    <section class="carrosselgoldencircle">
+        <div id="carouselExampleCaptions" class="carousel slide backgroundcarrossel" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -269,26 +256,57 @@
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                     aria-label="Slide 3"></button>
             </div>
+            <!-- PRIMEIRO CARROSSEL - QUAL O PROPÓSITO DA DEV TRAINER? -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                    <img src="./assets/imgs/carrossel_1 (2).jpg" class="d-block w-100 carrossel-porque"
+                        alt="imagem ilustrativa do nosso golden circle">
+                    <div class="carousel-caption d-none d-md-block carrossels">
+                        <h2 class="titulocarrossel">Qual o propósito da Dev Trainer?</h2>
+                        <h5 class="paragrafocarrossel"> <strong>
+                                Nosso propósito parte pelo princípio de quebrar os paradigmas das
+                                educações monótonas que se vê nos dias de hoje quando o assunto é aprender linguagens de
+                                programação.
+                            </strong></h5>
+                        <h5 class="paragrafocarrossel"> <strong>Aqui na Dev Trainer, você aprende se divertindo!!!
+                            </strong></h5>
                     </div>
                 </div>
+                <!-- SEGUNDO CARROSSEL - COMO É O SERVIÇO DA DEV TRAINER -->
                 <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                    <img src="./assets/imgs/carrossel_2.jpg" class="d-block w-100 carrossel-como"
+                        alt="imagem ilustrativa do nosso golden circle">
+                    <div class="carousel-caption d-none d-md-block carrossels">
+                        <h2 class="titulocarrossel">Como é o serviço da Dev Trainer?</h2>
+                        <h5 class="paragrafocarrossel"><strong>
+                                A Dev trainer veio para mudar o mercado e a forma que aprendemos
+                                linguagens de programação. Queremos renovar e trazer o conhecimento de uma forma
+                                didática
+                                que prenda o aluno cada vez mais no universo do desenvolvimento. Nosso planejamento foi
+                                juntar a parte do lazer, junto com o nosso jogo personalizado como parte do aprendizado,
+                                os
+                                usuários poderão evoluir constantemente passando de fases e resolvendo exercícios dentro
+                                da
+                                nossa plataforma gamificada.
+                            </strong></h5>
                     </div>
                 </div>
+                <!-- TERCEIRO CARROSSEL - O QUE É A DEV TRAINER? (QUAL TIPO DE SERVIÇO OFERECEMOS) -->
                 <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                    <img src="./assets/imgs/carossel_3.jpg" class="d-block w-100 carrossel-oque"
+                        alt="imagem ilustrativa do nosso golden circle">
+                    <div class="carousel-caption d-none d-md-block carrossels">
+                        <h2 class="titulocarrossel">Afinal de contas... O que é a Dev trainer e por quê está
+                            revolucionando tanto a educação na área de tecnologia?</h2>
+                        <h5 class="paragrafocarrossel"> <strong>Somos a única plataforma de cursos de linguagens de
+                                programação
+                                gamificada que oferece educação de alta qualidade misturada com a diversão, fazendo com
+                                que
+                                nossos usuários além de aprender diversas tecnologias novas com várias informações,
+                                possam
+                                se divertir e competir com outros usuários para adquirir o tão sonhado "Podium Trainer",
+                                que
+                                é um dos títulos mais altos da nossa plataforma.</strong></h5>
                     </div>
                 </div>
             </div>
@@ -304,14 +322,9 @@
             </button>
         </div>
     </section>
-    <br>
-    <section class="section2">
-        <h1>VALORES DA EMPRESA</h1>
-    </section>
+    <!-- FIM DO CARROSEL-->
 
-    <!-- FIM CAROUSEL -->
-
-    <!-- INICIO APRESENTAÇÃO DA EQUIPE -->
+    <!-- iniciando apresentação da equipe-->
 
     <div class="containergeralequipes">
         <div class="titulosequipes">
@@ -507,16 +520,13 @@
         <!-- Copyright -->
     </footer>
 
-    <br>
-    <br>
-
     <!-- SCRIPTS DA INDEX (BOOTSTRAP E JAVASCRIPT) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
