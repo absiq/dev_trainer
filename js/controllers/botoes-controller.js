@@ -26,3 +26,9 @@ document.getElementById("planospleno").onclick = function () {
 document.getElementById("planossenior").onclick = function () {
     window.location = "./html/cadastro.html";
 };
+//botão voltar pagina de login
+
+document.getElementById("#btnvoltarlogin").onclick = function (e) {
+    e.preventDefault()
+    window.location = "../index.html";
+};

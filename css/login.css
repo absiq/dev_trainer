@@ -63,14 +63,20 @@ body{
     background-color: #6fca74ff;
     border:#6fca74ff solid;
 }
-#btnvoltar{
+#btnvoltarlogin{
     display:flex;
     justify-content:center;
     margin-left: 30%;
-    background-color: rgb(76, 153, 79);
-    border: rgb(76, 153, 79) solid;
+    background-color: #309dc2;
+    /* background-color: rgb(76, 153, 79);
+    border: rgb(76, 153, 79) solid; */
 
 }
+/* .linkvoltar{
+    color:white;
+    text-decoration: none;
+    background-color:rgb(76, 153, 79);;
+} */
 /* #7CF182
 #57C1E4
 #F8A342 */
