@@ -24,3 +24,10 @@ $('#inputCep').blur(()=> {
 const controllercep = new ControllerCep()
 controllercep.adicionaCep()
 })
+
+// Botão de voltar na página de cadastro
+
+document.getElementById("orange-btn").onclick = function (e) {
+    e.preventDefault()
+    window.location = "../index.html";
+};
