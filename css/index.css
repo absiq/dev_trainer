@@ -130,3 +130,10 @@ body {
 .carrossels {
     text-align: center;
 }
+
+/* LINK RESET */
+
+a {
+    color: #ffffff;
+    text-decoration: none; 
+}
